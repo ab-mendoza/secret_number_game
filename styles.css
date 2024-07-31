@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    height: 37.5rem;
+    width: 75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #1875E8;
+    border-radius: 1.5rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 4px 4px 20px 0px rgba(132, 129, 154, 0.15);
+    ;
+}
+
+.userInteraction {
+    padding: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.displayMessage {
+    font-size: 1rem;
+}
+
+.inputSection {
+    width: 15rem;
+    height: 1.2rem;
+    border-radius: 1rem;
+}
+
+.buttonSection {
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 1.3rem;
+}
+
+.button {
+    border-radius: 1rem;
+    height: 1.6rem;
+    width: 7rem;
+}
+
+.photo {
+    height: 100%;
+}
+
+.textSection {
+    width: 25rem;
+    width: 100%;
+}
+
+.displayMessage {
+    max-width: 20rem;
+    /* Ajusta el ancho según necesites */
+    height: auto;
+    /* Cambia a auto para que el contenedor crezca con el contenido */
+    overflow-wrap: break-word;
+    /* Asegura que las palabras largas se rompan */
+    word-wrap: break-word;
+    /* Para compatibilidad con navegadores más antiguos */
+    padding: 0.5rem;
+}

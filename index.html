@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del NS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="userInteraction">
+            <div class="textSection">
+                <h1 class="title">¡Juego del número secreto!</h1>
+                <p class="displayMessage" id="displayMessage">Ingresa un número entre 1 y 10</p>
+            </div>
+            <input id="inputSection" class="inputSection" placeholder="Ingresa tu intento" type="number">
+            <div class="buttonSection">
+                <button class="button" onclick="verifyAttempt()">Verificar</button>
+                <button class="button" onclick="initialConditions()" id="newGameButton" disabled>Volver a Jugar</button>
+            </div>
+        </div>
+        <img src="ia.png" alt="Photo of someone looking to the left" class="photo">
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
